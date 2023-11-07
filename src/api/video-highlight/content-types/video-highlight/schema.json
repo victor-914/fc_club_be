@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "video_highlights",
+  "info": {
+    "singularName": "video-highlight",
+    "pluralName": "video-highlights",
+    "displayName": "video_highlight",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "url": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "integer"
+    }
+  }
+}
